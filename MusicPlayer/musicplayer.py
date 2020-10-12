@@ -39,5 +39,6 @@ class MusicPlayer:
             self.playing_state = False
     def stop(self):
         mixer.music.stop()
+        
 app= MusicPlayer(root)        
 root.mainloop()
